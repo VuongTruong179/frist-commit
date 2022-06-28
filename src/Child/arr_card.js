@@ -5,6 +5,8 @@ import { connect } from "react-redux";
 import Moment from "react-moment";
 class ArrCard extends React.Component {
 
+    
+    // +++++++
     ClickMovie(id) {
         this.props.addUserRedux((id))
     }
